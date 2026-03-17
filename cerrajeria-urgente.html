@@ -8,39 +8,28 @@
     <style>
         :root { --rojo: #d90429; --azul: #2b2d42; --gris-claro: #edf2f4; --blanco: #ffffff; }
         body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; color: #2b2d42; background-color: var(--blanco); }
-        
-        /* Cabecera */
         header { background: var(--azul); color: white; padding: 15px; text-align: center; border-bottom: 4px solid var(--rojo); }
         .logo-text { font-size: 1.5rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
-
-        /* Hero Section */
         .hero { background: linear-gradient(rgba(43, 45, 66, 0.8), rgba(43, 45, 66, 0.8)), url('https://images.unsplash.com/photo-1510816159960-63f860df8561?auto=format&fit=crop&q=80&w=1000') no-repeat center/cover; color: white; padding: 60px 20px; text-align: center; }
         .hero h1 { margin: 0; font-size: 2.2rem; line-height: 1.2; }
         .hero p { font-size: 1.2rem; margin: 15px 0; color: #ef233c; font-weight: bold; text-transform: uppercase; }
         .badge { background: var(--rojo); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; text-transform: uppercase; display: inline-block; margin-bottom: 10px; }
-
-        /* Servicios */
         .container { max-width: 900px; margin: auto; padding: 40px 20px; }
         .grid-servicios { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 10px; }
-        .card { background: var(--gris-claro); padding: 25px; border-radius: 12px; text-align: center; transition: 0.3s; border: 1px solid #ddd; }
+        .card { background: var(--gris-claro); padding: 25px; border-radius: 12px; text-align: center; border: 1px solid #ddd; }
         .card i { font-size: 2.5rem; color: var(--rojo); margin-bottom: 15px; }
         .card h3 { margin: 10px 0; font-size: 1.3rem; }
         .card p { font-size: 0.95rem; color: #4a4e69; }
-
-        /* Confianza */
         .confianza { background: var(--gris-claro); padding: 30px; border-radius: 15px; margin-top: 40px; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center; }
         .item-confianza { flex: 1; min-width: 150px; padding: 10px; }
         .item-confianza i { display: block; font-size: 1.5rem; color: var(--azul); margin-bottom: 5px; }
         .item-confianza span { font-weight: bold; font-size: 0.9rem; }
-
-        /* Footer / CTA */
         .footer-info { text-align: center; padding: 40px 20px 140px; font-size: 0.9rem; color: #666; }
         .cta-fixed { position: fixed; bottom: 0; left: 0; width: 100%; background: white; padding: 15px; display: flex; gap: 10px; box-shadow: 0 -5px 15px rgba(0,0,0,0.1); box-sizing: border-box; z-index: 1000; }
-        .btn { flex: 1; text-decoration: none; padding: 18px; border-radius: 10px; font-weight: 800; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; color: white; transition: 0.2s; }
+        .btn { flex: 1; text-decoration: none; padding: 18px; border-radius: 10px; font-weight: 800; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; color: white; }
         .btn-ws { background: #25d366; }
         .btn-tel { background: var(--rojo); }
         .btn i { margin-right: 10px; font-size: 1.4rem; }
-
         @media (max-width: 480px) { .hero h1 { font-size: 1.8rem; } }
     </style>
 </head>
@@ -51,8 +40,8 @@
 </header>
 
 <section class="hero">
-    <span class="badge"><i class="fa-solid fa-shield-check"></i> Servicio Garantizado</span>
-    <h1>¿Se ha dejado las llaves dentro?</h1>
+    <span class="badge"><i class="fa-solid fa-shield-check"></i> Servicio Profesional</span>
+    <h1>¿Problemas con su cerradura?</h1>
     <p>Llamada Directa - Atención Inmediata</p>
 </section>
 
@@ -61,17 +50,17 @@
         <div class="card">
             <i class="fa-solid fa-door-open"></i>
             <h3>Aperturas Urgentes</h3>
-            <p>Abrimos su puerta intentando siempre causar el menor impacto posible. Especialistas en todo tipo de cerraduras.</p>
+            <p>Apertura de puertas por pérdida de llaves o cerraduras bloqueadas. Servicio profesional y cuidadoso.</p>
         </div>
         <div class="card">
             <i class="fa-solid fa-lock-open"></i>
             <h3>Cambio de Bombín</h3>
-            <p>Sustitución de cerraduras por seguridad, pérdida de llaves o avería técnica.</p>
+            <p>Sustitución de bombines y cerraduras para mejorar la seguridad de su hogar o negocio.</p>
         </div>
         <div class="card">
             <i class="fa-solid fa-user-shield"></i>
-            <h3>Seguridad Hogar</h3>
-            <p>Mejoramos la protección de su vivienda con cerrojos y sistemas actualizados.</p>
+            <h3>Asistencia 24h</h3>
+            <p>Técnicos especialistas en seguridad disponibles para resolver cualquier incidencia al instante.</p>
         </div>
     </div>
 
@@ -82,17 +71,17 @@
         </div>
         <div class="item-confianza">
             <i class="fa-solid fa-truck-fast"></i>
-            <span>Desplazamiento en la Zona</span>
+            <span>Desplazamiento Local</span>
         </div>
         <div class="item-confianza">
             <i class="fa-solid fa-certificate"></i>
-            <span>Técnicos Profesionales</span>
+            <span>Garantía de Servicio</span>
         </div>
     </div>
 </div>
 
 <div class="footer-info">
-    <p>Servicio de cerrajería disponible los 365 días del año.<br>Consulte tarifas y disponibilidad según zona.</p>
+    <p>Servicio de cerrajería profesional.<br>Disponibles todos los días del año.</p>
 </div>
 
 <div class="cta-fixed">
