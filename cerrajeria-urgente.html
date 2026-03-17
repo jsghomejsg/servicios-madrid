@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrajero Urgente 24h</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --color-principal: #e63946; --color-oscuro: #1d3557; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        header { background: var(--color-oscuro); color: white; padding: 20px; text-align: center; font-weight: bold; font-size: 1.4rem; }
+        .hero { background: #f8f9fa; padding: 40px 20px; text-align: center; border-bottom: 5px solid var(--color-principal); }
+        .hero h1 { margin: 0; font-size: 2rem; color: var(--color-oscuro); }
+        .urgente { color: var(--color-principal); font-weight: bold; font-size: 1.2rem; display: block; margin-top: 10px; }
+        .servicios { padding: 30px 20px; max-width: 800px; margin: auto; }
+        .servicio-item { display: flex; align-items: center; margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .servicio-item i { color: var(--color-principal); font-size: 1.5rem; margin-right: 15px; width: 30px; text-align: center; }
+        .cta-container { position: fixed; bottom: 20px; width: 100%; display: flex; justify-content: center; gap: 10px; padding: 0 20px; box-sizing: border-box; }
+        .btn { text-decoration: none; padding: 15px 25px; border-radius: 50px; font-weight: bold; color: white; display: flex; align-items: center; justify-content: center; flex: 1; max-width: 250px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        .btn-ws { background: #25d366; }
+        .btn-tel { background: var(--color-principal); }
+        .btn i { margin-right: 10px; font-size: 1.2rem; }
+        @media (max-width: 480px) { .hero h1 { font-size: 1.6rem; } .cta-container { bottom: 10px; } }
+    </style>
+</head>
+<body>
+
+<header>
+    CERRAJERÍA 24 HORAS
+</header>
+
+<section class="hero">
+    <h1>Cerrajero Urgente</h1>
+    <span class="urgente"><i class="fa-solid fa-clock"></i> Servicio Rápido 24 Horas</span>
+</section>
+
+<section class="servicios">
+    <div class="servicio-item">
+        <i class="fa-solid fa-door-open"></i>
+        <span><strong>Apertura de Puertas:</strong> Expertos en aperturas sin daño.</span>
+    </div>
+    <div class="servicio-item">
+        <i class="fa-solid fa-key"></i>
+        <span><strong>Cambio de Cerraduras:</strong> Instalación y mejora de seguridad.</span>
+    </div>
+    <div class="servicio-item">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span><strong>Reparación:</strong> Arreglo de bombines y sistemas de cierre.</span>
+    </div>
+    <p style="text-align: center; font-size: 0.9rem; color: #666; margin-top: 20px;">Presupuesto sin compromiso. Profesionales en tu zona.</p>
+</section>
+
+<div style="height: 120px;"></div>
+
+<div class="cta-container">
+    <a href="https://wa.me/34600000000" class="btn btn-ws">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+    </a>
+    <a href="tel:+34600000000" class="btn btn-tel">
+        <i class="fa-solid fa-phone"></i> Llamar
+    </a>
+</div>
+
+</body>
+</html>
