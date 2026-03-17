@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrajero Profesional 24h | Servicio de Urgencia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --azul-oscuro: #003049; --rojo-fuego: #d62828; --naranja: #f77f00; --beige: #eae2b7; --blanco: #ffffff; }
+        body { font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; color: #333; background-color: var(--blanco); }
+        
+        nav { background: var(--azul-oscuro); padding: 15px 20px; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-weight: 800; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; }
+        .status { font-size: 0.8rem; background: #2a9d8f; padding: 4px 10px; border-radius: 4px; }
+
+        .hero { background: linear-gradient(rgba(0, 48, 73, 0.85), rgba(0, 48, 73, 0.85)), url('https://images.unsplash.com/photo-1509146756150-cd4666d9539d?auto=format&fit=crop&q=80&w=1000'); padding: 70px 20px; text-align: center; color: white; border-bottom: 6px solid var(--naranja); }
+        .hero h1 { font-size: 2.3rem; margin: 0; font-weight: 900; }
+        .hero p { font-size: 1.2rem; margin-top: 15px; color: var(--naranja); font-weight: bold; }
+
+        .container { max-width: 1000px; margin: auto; padding: 40px 20px; }
+        
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .s-card { border-left: 5px solid var(--rojo-fuego); padding: 25px; background: #f8f9fa; border-radius: 0 15px 15px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .s-card i { font-size: 2rem; color: var(--azul-oscuro); margin-bottom: 15px; }
+        .s-card h3 { margin: 0 0 10px 0; font-size: 1.4rem; }
+        
+        .guarantee { background: var(--azul-oscuro); color: white; padding: 40px 20px; border-radius: 20px; margin-top: 40px; text-align: center; }
+        .guarantee h2 { margin-bottom: 25px; color: var(--naranja); }
+        .points { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .p-item { flex: 1; min-width: 200px; }
+        .p-item i { font-size: 1.5rem; margin-bottom: 10px; color: var(--naranja); }
+
+        .cta-box { position: fixed; bottom: 0; left: 0; width: 100%; background: white; padding: 15px; display: flex; gap: 10px; box-shadow: 0 -5px 20px rgba(0,0,0,0.1); box-sizing: border-box; z-index: 1000; }
+        .btn { flex: 1; text-decoration: none; padding: 18px; border-radius: 12px; font-weight: 800; text-align: center; color: white; font-size: 1.1rem; }
+        .btn-call { background: var(--rojo-fuego); }
+        .ws-btn { position: fixed; right: 20px; bottom: 90px; background: #25d366; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; color: white; font-size: 30px; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+
+        @media (max-width: 480px) { .hero h1 { font-size: 1.8rem; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">Servicio de Cerrajería</div>
+    <div class="status">DISPONIBLE AHORA</div>
+</nav>
+
+<section class="hero">
+    <h1>Cerrajería Profesional 24 Horas</h1>
+    <p>Atención directa para urgencias y seguridad</p>
+</section>
+
+<div class="container">
+    <div class="services-grid">
+        <div class="s-card">
+            <i class="fa-solid fa-house-lock"></i>
+            <h3>Aperturas Urgentes</h3>
+            <p>Especialistas en aperturas de todo tipo de puertas sin llaves. Técnicas profesionales.</p>
+        </div>
+        <div class="s-card">
+            <i class="fa-solid fa-key-skeleton"></i>
+            <h3>Bombines de Seguridad</h3>
+            <p>Sustitución y mejora de bombines. Proteja su puerta contra técnicas de robo actuales.</p>
+        </div>
+    </div>
+
+    <div class="guarantee">
+        <h2>¿Por qué elegir nuestro servicio?</h2>
+        <div class="points">
+            <div class="p-item">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <p>Respuesta Local</p>
+            </div>
+            <div class="p-item">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <p>Presupuesto sin compromiso</p>
+            </div>
+            <div class="p-item">
+                <i class="fa-solid fa-user-check"></i>
+                <p>Trato Directo</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="height: 120px;"></div>
+
+<a href="https://wa.me/34600000000" class="ws-btn">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<div class="cta-box">
+    <a href="tel:+34600000000" class="btn btn-call">
+        <i class="fa-solid fa-phone-flip"></i> LLAMAR AHORA
+    </a>
+</div>
+
+</body>
+</html>
